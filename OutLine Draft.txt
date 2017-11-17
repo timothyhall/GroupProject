@@ -1,0 +1,55 @@
+*****************************************************************************************
+*										Seats											*
+*							  1234567890 12345678901234567890							*
+*						Row 1 ***###***###******############							*
+*						Row 2 ####*************####*******##							*
+*						Row 3 **###**********########****###							*
+*						Row 4 **######**************##******							*
+*						Row 5 ********#####*********########							*
+*						Row 6 ##############************####							*
+*						Row 7 #######************###########							*
+*						Row 8 ************##****############							*
+*						Row 9 #########*****############****							*
+*						Row 10 #####*************############							*
+*						Row 11 #**********#################**							*
+*						Row 12 #############********########*							*
+*						Row 13 ###***********########**######							*
+*						Row 14 ##############################							*
+*						Row 15 ##############################							*
+*																						*
+*																						*
+*		Menu																			*
+*		1) Display/Hide Chart															*
+*		2) Request Tickets																*
+*		3) Sales Report																	*
+*		4) Quit																			*
+*																						*
+*																						*
+*																						*
+*																						*
+*																						*																							*
+*																						*
+*																						*
+*****************************************************************************************
+
+Menu Guide
+1) Display / Hide Chart 
+	~Show & Hide Chart
+2) Request Tickets
+	~Number of seats patron wants
+	~Desired Row
+	~Desired starting seat number
+		*If seat does not exist - Display Message
+		*If seat exists - create list of price per seat & total price
+			~Verify purchase
+				*Move to purchase screen
+				*Accept Moneys
+				*Ensure Sufficient moneys to cover price
+				*Mark Seat as sold
+				*Make Tickets with Price, Row Number, Seat Number
+3) Sales Report
+	~How many seats sold
+	~How many seats available
+	~Moneys collected so far
+4) Quit
+	~Write data out. 
